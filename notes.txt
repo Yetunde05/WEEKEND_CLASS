@@ -1,0 +1,4 @@
+Git init = initialize
+Git add -A 
+Git commit -m "initial"
+Git push -u origin master
