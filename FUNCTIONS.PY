@@ -48,12 +48,50 @@ import string
 #     ans = max(x)
 #     return ans
 # write a function that returns the min number in x, x should be a list
-x = list(map(int,input("Enter three numbers:").split()))
-def find_minimum (x):
-    ans = min(x)
-    print(ans)
-    # return ans
-find_minimum(x)
+# x = list(map(int,input("Enter three numbers:").split()))
+# def find_minimum (x):
+#     ans = min(x)
+#     print(ans)
+#     # return ans
+# find_minimum(x)
+
+# x = 40
+# def match(x):
+#     y = x+50
+#     # return y
+#     print(y)
+# match(x)
+
+# def names():
+#     names = "justice", "dominion", "yetunde"
+#     print("hello" + " "  +   names[1])
+# names()
+#         OR
+# def fun_name(*kids):
+#     print("The youngest child is" + " " + kids[1])
+# fun_name("justice", "dominion", "yetunde")
+
+# def fruit_list(fruit1,fruit2):
+#     print("My favourite is" + " " + fruit2)
+# fruit_list(fruit1 = "pawpaw", fruit2 = "apple") 
+
+# def world(**country):
+#     print(country["east"] + " " + "is a country in Africa")
+# world(south = "South Africa", east = "Kenya") 
+    # DEFAULT ARGUMENT
+def my_car(car = "bmw"):
+    print(car)
+my_car()   
+
+
+    
+
+
+
+
+
+
+
 
     
 

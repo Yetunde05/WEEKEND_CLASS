@@ -46,7 +46,30 @@ print(f"You have {num} subjects in a period.")
 # 7---14---21---28---35
 # solution
 ques1 = int(input("Enter a number: "))
-print(ques1,'---',ques1*2,"---",ques1*3,"---",ques1*4,"---",ques1*5)
+print(ques1,ques1*2,ques1*3,ques1*4,ques1*5, sep="---") 
 
+# 7. Write a program that asks the user for a weight in kilograms and converts it to pounds. There
+# are 2.2 pounds in a kilogram
+# solution
+
+user = eval(input("input your weight in kilo: "))
+output = user*2.2
+print(f"You have {output} weight, which have been converted to pounds" )
+
+# 8. Write a program that asks the user to enter three numbers (use three separate input statements). Create variables called total and average that hold the sum and average of the
+# three numbers and print out the values of total and average.
+# solution
+questn1 = eval(input("Enter a number: "))
+questn2 = eval(input("Enter the 2nd number: "))
+questn3 = eval(input("Enter the 3rd number: "))
+total = questn1 + questn2 + questn3
+average = total/2
+print(total)
+print(int(average))
+
+# 9. A lot of cell phones have tip calculators. Write one. Ask the user for the price of the meal and
+# the percent tip they want to leave. Then print both the tip amount and the total bill with the
+# tip included
+# solution
 
 
