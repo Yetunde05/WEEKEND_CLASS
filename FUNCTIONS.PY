@@ -79,9 +79,77 @@ import string
 #     print(country["east"] + " " + "is a country in Africa")
 # world(south = "South Africa", east = "Kenya") 
     # DEFAULT ARGUMENT
-def my_car(car = "bmw"):
-    print(car)
-my_car()    
+# def my_car(car = "bmw"):
+#     print(car)
+# my_car() 
+# write a function called addition, takes in 2 parameters and
+# return there sum
+# def addition(x,y):
+#     ansa = x + y
+#     print(ansa)
+# addition(2,5)
+
+
+# def print_lyrics():
+#     print("I'm a lumberjack, and i am i'm okay.")
+#     print("I sleep all night and i work all day.")
+# print_lyrics()
+
+# def greet(name):
+#     # print(f"Hello {name} , goodmorning")
+#     return(f"Hello {name} , goodmorning")
+# print(greet("yinka"))
+
+# def multiplication(x,y,z):
+#     ansa = x*y*z
+#     return(ansa)
+# print(multiplication(2,3,4))
+
+# def division(x,y):
+#     ansa = x/y
+#     return(ansa)
+# print(division(2,3))
+
+
+# NESTED FUNCTIONS
+# def print_lyrics():
+#     print("I am a boy")
+# print_lyrics()
+
+# def Repeat_lyrics():
+#     print_lyrics()
+# Repeat_lyrics()
+
+# # DEFAULT ARGUEMENT
+# def origin(country = "Nigeria"):
+#     return(f"You are from {country}")
+# print(origin("Turkey"))
+
+# ARBITRARY ARGUMENTS
+# def func_one(*name):
+#     print(f"Hello  {name[1]}")
+# func_one("ola", "tolu", "ade")
+
+# create a variable that ask a user for a name, pass the variable into a 
+# function that will say(hello obi)
+
+# ques = input("Enter a name: ")
+# def ansa(ques):
+#     return(f"Hello {ques}")
+# print(ansa(ques))
+
+# write a code that accept hours and rate as input from a user and
+# returns the salary
+# ques1 = eval(input("Enter the work hour: "))
+# quest2 = eval(input("Enter the rate: "))
+# def salary(ques1,quest2):
+#     ansa = ques1*quest2
+#     return(ansa)
+# print(salary(ques1,quest2))
+
+
+
+
 
 
     

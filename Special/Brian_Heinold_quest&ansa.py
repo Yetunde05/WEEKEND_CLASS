@@ -72,4 +72,9 @@ print(int(average))
 # tip included
 # solution
 
+meal_price = eval(input('Enter the price of meal: '))
+tip_amount = float(input('Enter percent tips amount: '))
+print(meal_price*tip_amount/100)
+
+
 
